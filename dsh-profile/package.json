@@ -1,0 +1,13 @@
+{
+  "name": "solution-gen-dsh-profile",
+  "private": true,
+  "type": "module",
+  "description": "Out-of-tree dsh web profile. Pin only; do not fork harness.",
+  "dsh": {
+    "npm": "@deepseek-ai/dsh@0.1.0-rc.6",
+    "python": "deepseek-harness-sdk==0.1.0rc6"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh-tools": "0.1.0-rc.6"
+  }
+}

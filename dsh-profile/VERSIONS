@@ -1,0 +1,4 @@
+DSH_NPM=@deepseek-ai/dsh@0.1.0-rc.6
+DSH_PYTHON_SDK=deepseek-harness-sdk==0.1.0rc6
+WEB_PORT=3080
+BACKEND_PORT=8002

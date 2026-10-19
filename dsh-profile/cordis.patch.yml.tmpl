@@ -1,0 +1,28 @@
+# Generated at start; do not commit a machine-specific copy.
+# scripts/dsh-web.sh writes cordis.patch.yml from this template.
+
+- id: system-prompt
+  config:
+    persona: |
+__MAIN_PERSONA__
+
+- id: tool-bash
+  disabled: true
+
+- id: tool-pwsh
+  disabled: true
+
+- id: tool-workflow
+  disabled: true
+
+- id: tool-ralph
+  disabled: true
+
+- id: skill-filesystem
+  config:
+    customSkillDirs:
+      - __PROFILE_ROOT__/skills
+
+- insert:
+    - id: solution-gen-tools
+      name: __PLUGIN_TS__
